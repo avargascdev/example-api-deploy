@@ -102,7 +102,7 @@ app.patch('/movies/:id', (req, res) => {
 
 app.get('/', (req, res) => {
   res.send(
-    '<div style="text-align:center;margin:auto"><h1>HOLA JAVIER:)</h1></div>'
+    '<div style="text-align:center;margin:auto"><h1>hello world!</h1></div>'
   )
 })
 
